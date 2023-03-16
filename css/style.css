@@ -120,4 +120,103 @@ input[type="submit"] {
 .dot.active {
     background-color: var(--main-color);
 }
+/* Áreas de atuação */
+
+.text-image-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.text-container {
+    flex: 2 1 0;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.section-subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--main-color);
+    font-size: 2rem;
+}
+
+.section-title {
+    color: var(--secondary-text-color);
+
+}
+
+.btn {
+    padding: 1.2rem 1.8rem;
+    background-color: var(--main-color);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    align-self: end;
+
+}
+
+.image-container {
+    flex: 1 1 300px;
+    position: relative;
+}
+
+.image-container i {
+    position: absolute;
+    background-color: var(--main-color);
+    font-size: 2rem;
+    color: var(--primary-text-color);
+    padding: 2rem;
+}
+
+
+#other-services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding 2rem
+
+}
+
+.service {
+    position: relative;
+    width: 100%;
+    max-width: 30%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    
+}
+
+.service i {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--main-color);
+    font-size: 2rem;
+    color: var(--primary-text-color);
+    padding: 2rem;
+}
+
+.service-info {
+    background-color: var(--tertiary-color);
+    padding: 2rem 1.4rem;
+    min-height: 250px;
+    margin-top: -3rem;
+    z-index: 2;
+    position: relative;
+}
+
+.service h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    
 }
