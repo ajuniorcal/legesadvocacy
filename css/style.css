@@ -151,8 +151,10 @@ input[type="submit"] {
 
 .section-title {
     color: var(--secondary-text-color);
-
+    font-size: 2rem;
 }
+
+
 
 .btn {
     padding: 1.2rem 1.8rem;
@@ -228,6 +230,7 @@ input[type="submit"] {
 /* Sobre Nos*/
 
 #about {
+    padding-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -235,7 +238,7 @@ input[type="submit"] {
 }
 
 #about-text {
-    background-image: url("../Images/pattern.png");
+    background-image: url(../Images/pattern.png);
     background-size: cover;
     background-position: center;
     color: var(--primary-text-color);
@@ -249,7 +252,7 @@ input[type="submit"] {
 }
 
 #about-text p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 #about-text .section-subtitle,
@@ -263,16 +266,22 @@ input[type="submit"] {
     gap: 2rem;
 }
 
-.about-description{
-    display: block;
+.about-description {
+    display: flex;
     align-items: center;
     margin-bottom: 2rem;
     margin-top: 2.5rem;
 }
 
 .about-description h4 {
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
+}
+
+.about-description i {
+    font-size: 2.5rem;
+    padding:2rem;
+    
 }
 
 #about-data {
@@ -280,38 +289,46 @@ input[type="submit"] {
     display: flex;
     flex-wrap: wrap;
     padding: 2rem;
-    
 }
 
-
 #about-data .data {
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
     margin-top: -1px;
-    margin-left: -1px;
+    
+
+    
 }
+
+#about-data .data:first-child{
+border-bottom: 1px solid var(--secondary-text-color);
+border-right: 1px solid var(--secondary-text-color);
+}
+
+#about-data .data:last-child{
+    border-top: 1px solid var(--secondary-text-color);
+    border-left: 1px solid var(--secondary-text-color);
+    }
+    
+
 
 #about-data .data i {
 background-color: transparent;
 color: var(--main-color);
 font-size: 4rem;
 padding: 0;
-    
 }
 
-#about-data .data:first-child{
-    border-bottom: 1px solid var(--secondary-text-color);
-    border-right: 1px solid var(--secondary-text-color);;
+.data .number {
+    font-size: 4rem;
+    font-weight: 900;
 }
 
-#about-data .data:last-child{
-    border-top: 1px solid var(--secondary-text-color);
-    border-left: 1px solid var(--secondary-text-color);;
+.data .text {
+    text-transform: uppercase;
 }
-
-
-
