@@ -598,7 +598,20 @@ Contato */
     color: var(--secondary-color);
   }
 
+  /* Mobile Navbar */
+#menu, #close-menu {
+  font-size: 2rem;
+  padding: 1rem;
+}
 
+#close-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#mobile-navbar {
+  position: fixed;
+}
 /* Responsivo */
 
 @media (max-width: 450px){
@@ -611,10 +624,12 @@ Contato */
         font-size: 2rem;
     }
 
+    
+
     /* Navbar */
 
     #navbar {
         display: none;
-        
+
     }
 }
