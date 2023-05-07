@@ -1,53 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leges Advocacy</title>
-    <link rel="shortcut icon" href="./Images/icon leges.ico" type="image/x-icon">
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <!--Estilos-->
-    <link rel="stylesheet" href="./css/style.css">
-    <!--Bootstrap Icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pearson Hardman</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Scripts -->
+    <script src="./js/scripts.js" defer></script>
 </head>
 
 <body>
-    <!--Cabeçalho e Banner-->
+    <!-- Cabeçalho e Banner -->
     <header id="header">
         <div id="inner-header">
-
-            <h2 id="brand"> <span>Leges Advocacy</span> </h2>
-
+            <h2 id="brand">Leges Advocacy</h2>
             <nav id="navbar">
                 <a href="#header">Início</a>
-                <a href="areasdeexpertise">Serviços</a>
-                <a href="sobre">Sobre</a>
-                <a href="time">Time</a>
-                <a href="contato">Contato</a>
-
+                <a href="#expertise-areas">Serviços</a>
+                <a href="#about">Sobre</a>
+                <a href="#team">Time</a>
+                <a href="#contact">Contato</a>
             </nav>
-            <!--Menu Mobile-->
+            <!-- Menu Mobile -->
             <i class="bi bi-list" id="menu"></i>
-            <i class="bi bi-x-lg" id="close-menu"></i>
             <nav id="mobile-navbar">
+                <i class="bi bi-x-lg" id="close-menu"></i>
                 <a href="#header">Início</a>
-                <a href="areasdeexpertise">Serviços</a>
-                <a href="sobre">Sobre</a>
-                <a href="time">Time</a>
-                <a href="contato">Contato</a>
-
+                <a href="#expertise-areas">Serviços</a>
+                <a href="#about">Sobre</a>
+                <a href="#team">Time</a>
+                <a href="#contact">Contato</a>
             </nav>
-
         </div>
         <div class="banner active">
             <span class="square"></span>
             <h2>Melhores experts em direito do país</h2>
             <p>
-                Os Advogados mais qualificados estão presentes aqui. Agende uma conversa e conheça o time agora mesmo
+                Os advogados mais bem qualificados estão aqui, agende uma reunião e
+                conheça nosso time
+            </p>
+        </div>
+        <div class="banner">
+            <span class="square"></span>
+            <h2>Conheça o nosso time</h2>
+            <p>
+                Veja as especialidades dos nossos advogados, e entenda como eles podem
+                lhe ajudar
+            </p>
+        </div>
+        <div class="banner">
+            <span class="square"></span>
+            <h2>Os nossos resultados</h2>
+            <p>
+                Confira as nossas métricas e conheça os resultados que já obtivemos
             </p>
         </div>
         <div class="dots">
@@ -56,9 +73,7 @@
             <div class="dot"></div>
         </div>
     </header>
-
-    <!--Áreas de Atuação-->
-
+    <!-- Áreas de atuação -->
     <main id="expertise-areas" class="text-image-section">
         <div id="expertise-information" class="text-container">
             <p class="section-subtitle">Áreas de atuação</p>
@@ -70,11 +85,11 @@
         </div>
         <div id="expertise-image-container" class="image-container">
             <i class="bi bi-people"></i>
-            <img src="/Images/employes_banner.webp" alt="Advogados da Pearson Hardman" />
+            <img src="./Images/employes_banner.jpg" alt="Advogados da Leges Advocacy" />
         </div>
         <div id="other-services">
             <div class="service">
-                <img src="/Images/Bank.jpg" alt="Banco" />
+                <img src="./Images/Bank.jpg" alt="Banco" />
                 <i class="bi bi-bank"></i>
                 <div class="service-info">
                     <h4>Bancos e Finanças pessoais</h4>
@@ -87,7 +102,7 @@
                 </div>
             </div>
             <div class="service">
-                <img src="/Images/Construction.jpg" alt="Construção" />
+                <img src="./Images/Construction.jpg" alt="Construção" />
                 <i class="bi bi-bricks"></i>
                 <div class="service-info">
                     <h4>Construção de Imóveis sem escritura</h4>
@@ -100,7 +115,7 @@
                 </div>
             </div>
             <div class="service">
-                <img src="/Images/Company.jpg" alt="Empresa" />
+                <img src="./Images/Company.jpg" alt="Empresa" />
                 <i class="bi bi-building"></i>
                 <div class="service-info">
                     <h4>Empresas e funcionários</h4>
@@ -114,6 +129,7 @@
             </div>
         </div>
     </main>
+    <!-- Sobre nós -->
     <section id="about">
         <div id="about-text">
             <p class="section-subtitle">Sobre nós</p>
@@ -156,29 +172,28 @@
             <div class="data">
                 <i class="bi bi-building"></i>
                 <p class="number">40</p>
-                <p class="text">clientes</p>
+                <p class="text">Clientes</p>
             </div>
             <div class="data">
                 <i class="bi bi-trophy"></i>
                 <p class="number">7</p>
                 <p class="text">Prêmios empresariais</p>
             </div>
-
         </div>
     </section>
     <!-- Depoimentos -->
     <section id="testimonials" class="text-image-section">
-        <div id="testimonial-information" class="textcontainer">
-            <p class="section-subtitle">Depoimento de Clientes</p>
+        <div id="testimonial-information" class="text-container">
+            <p class="section-subtitle">Depoimentos de clientes</p>
             <h3 class="section-title">
                 Graças à Leges Advocacy consegui realizar o meu divórcio em tempo recorde.
             </h3>
             <div class="author">
                 <div class="author-info">
                     <p class="author-name">Girafales</p>
-                    <p class="author-job">Professor na escola da Vila</p>
+                    <p class="author-job">Professor</p>
                 </div>
-                <img src="./Images/Author1.png" alt="Professor Girafales">
+                <img src="./Images/Author1.png" alt="Girafales" />
             </div>
             <h3 class="section-title">
                 O Melhor escritório que eu já vi. Renegociei meu aluguel e não devo mais nada.
@@ -188,62 +203,51 @@
                     <p class="author-name">Madruguinha</p>
                     <p class="author-job">Autônomo</p>
                 </div>
-                <img src="./Images/Author2.png" alt="Madruguinha">
+                <img src="./Images/Author2.png" alt="Madruguinha" />
             </div>
         </div>
         <div id="testimonial-image-container" class="image-container">
             <i class="bi bi-quote"></i>
-            <img src="./Images/court.jpg" alt="Tribunal">
-
+            <img src="./Images/court.jpg" alt="Advogado em um tribunal" />
         </div>
-
     </section>
-
     <!-- Colaboradores -->
     <section id="team">
-        <span class="square">
-
-        </span>
-
-        <h2>A <span>Leges Advocacy</span> tem um time de especialistas a sua disposição</h2>
-
+        <span class="square"></span>
+        <h2>
+            A <span>Leges Advocacy</span> tem um time de especialistas a sua
+            disposição
+        </h2>
         <div class="employees">
             <div class="employee">
-                <img src="/Images/Mario.png" alt="Mário. Que mário? Esse mesmo!">
-                <p class="employee-name">Mário. Que mário? Esse mesmo!</p>
+                <img src="./Images/Mario.png" alt="Mário, que mário? Esse mesmo" />
+                <p class="employee-name">MÁRIO. QUE MÁRIO? ESSE MESMO!</p>
                 <p class="employee-role">Advogado</p>
             </div>
             <div class="employee">
-                <img src="/Images/Mirosvaldo.png" alt="Mirosvaldo, Baianinho de Mauá do Direito">
-                <p class="employee-name">Mirosvaldo, Baianinho de Mauá do Direito</p>
+                <img src="./Images/Mirosvaldo.png" alt=Mirosvaldo, o Baianinho de Mauá do Direito" />
+                <p class="employee-name">Mirosvaldo, o Baianinho de Mauá do Direito</p>
                 <p class="employee-role">Advogado Sênior</p>
             </div>
             <div class="employee">
-                <img src="/Images/Juleska.png" alt="Juleska, do Causo do Lambisame">
+                <img src="./Images/Juleska.png" alt="Juleska, do Causo do Lambisame" />
                 <p class="employee-name">Juleska, do Causo do Lambisame</p>
-                <p class="employee-role">Advogada Plena</p>
+                <p class="employee-role">Advogado</p>
             </div>
             <div class="employee">
-                <img src="/Images/Sharolaine.png" alt="Sharolaine, a que manda em tudo">
-                <p class="employee-name">Sharolaine, a que manda em tudo</p>
+                <img src="./Images/Sharolaine.png" alt="Sharolaine. a que Manda em Tudo" />
+                <p class="employee-name">Sharolaine. a que Manda em Tudo</p>
                 <p class="employee-role">CEO</p>
             </div>
         </div>
-
     </section>
-    <!-- 
-    Contato
-
-cols="30" rows="10"-->
-
+    <!-- Contato -->
     <section id="contact" class="text-image-section">
         <div id="contact-image-container" class="image-container">
-            <img src="/Images/Office.jpg" alt="Advogados no escritório" />
+            <img src="./Images/Office.jpg" alt="Advogados no escritório" />
         </div>
         <div id="contact-information" class="text-container">
-            <div>
-                <i class="bi bi-envelope"></i>
-            </div>
+            <i class="bi bi-envelope"></i>
             <p class="section-subtitle">Entre em contato</p>
             <form>
                 <div class="form-control">
@@ -256,18 +260,16 @@ cols="30" rows="10"-->
             </form>
         </div>
     </section>
-
-    <!-- Rodape -->
-
+    <!-- Rodapé -->
     <footer id="footer">
         <div class="contact-info">
             <div class="footer-brand">
                 <h2>Leges Advocacy</h2>
-                <p>O Advogado certo para sua empresa</p>
+                <p>O advogado certo para a sua empresa</p>
             </div>
-            <p><i class="bi bi-geo-alt"></i> Vila do Chaves, 88</p>
-            <p><i class="bi bi-telephone"></i> 62 9 1234 5678</p>
-            <p><i class="bi bi-envelope"></i> contato@legesadvocacy.com</p>
+            <p><i class="bi bi-geo-alt"></i> Rua dos Advogados, 1415</p>
+            <p><i class="bi bi-telephone"></i> (99) 9999-9999</p>
+            <p><i class="bi bi-envelope"></i> contato@pearsonhardman.com</p>
             <div class="social-networks">
                 <p>Siga-nos:</p>
                 <div class="networks">
@@ -276,39 +278,37 @@ cols="30" rows="10"-->
                     <a href="#"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-instagram"></i></a>
                 </div>
-
             </div>
-
         </div>
         <div class="links-container">
-            <h4>Outros Serviços</h4>
+            <h4>Outros serviços</h4>
             <nav>
-                <a href="#">Propriedade Intelectual</a>
+                <a href="#">Propriedade intelectual</a>
                 <a href="#">LGPD</a>
-                <a href="#">Direito Internacional</a>
+                <a href="#">Direito internacional</a>
                 <a href="#">Processos</a>
             </nav>
         </div>
         <div class="links-container">
             <h4>Páginas</h4>
             <nav>
-                <a href="#">Termos e Condições</a>
-                <a href="#">Política de Privacidade</a>
-                <a href="#">Fale com o Especialista</a>
+                <a href="#">Termos e condições</a>
+                <a href="#">Política de privacidade</a>
+                <a href="#">Fale com um especialista</a>
                 <a href="#">FAQ</a>
             </nav>
         </div>
         <div class="links-container">
-            <h4>Consulta Grátis</h4>
+            <h4>Consulta grátis</h4>
             <div class="phone-number">
                 <i class="bi bi-telephone"></i>
-                <p>(99) 9 9999 9999</p>
+                <p>(99) 9999-9999</p>
             </div>
-            <p class="phone-info">Este telefone é especial para tratar casos já em andamento</p>
-
+            <p class="phone-info">
+                Este telefone é especial para tratar de casos já em andamento
+            </p>
         </div>
     </footer>
-
 </body>
 
 </html>
